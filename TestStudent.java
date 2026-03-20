@@ -7,6 +7,10 @@ public class TestStudent {
         s2.displayInfo();
         s3.displayInfo();
         IO.println(s1.getInfo());
-        s1.gender = true;
+        //s1.gender = true;
+
+        String productName = new String("Macbook Neo");
+        IO.println(productName);
+
     }
 }
