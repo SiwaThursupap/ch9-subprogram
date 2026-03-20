@@ -3,6 +3,7 @@ public class student {
     private int studentId;
     private String studentName;
     private double gpa;
+    private boolean gender ;
 
     public student(int studentId, String studentName, double gpa) {
         this.studentId = studentId;

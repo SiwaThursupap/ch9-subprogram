@@ -7,5 +7,6 @@ public class TestStudent {
         s2.displayInfo();
         s3.displayInfo();
         IO.println(s1.getInfo());
+        s1.gender = true;
     }
 }
