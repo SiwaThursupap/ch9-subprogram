@@ -3,7 +3,7 @@ public class student {
     private int studentId;
     private String studentName;
     private double gpa;
-    private boolean gender ;
+    private boolean gender;
 
     public student(int studentId, String studentName, double gpa) {
         this.studentId = studentId;
@@ -18,7 +18,7 @@ public class student {
         IO.println("GPA : " + this.gpa);
     }
 
-    public String getInfo(){
-        return this.studentId + " " + this.studentName + " " +this.gpa;
+    public String getInfo() {
+        return this.studentId + " " + this.studentName + " " + this.gpa;
     }
 }

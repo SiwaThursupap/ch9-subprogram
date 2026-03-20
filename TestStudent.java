@@ -9,7 +9,8 @@ public class TestStudent {
         IO.println(s1.getInfo());
         //s1.gender = true;
 
-        String productName = new String("Macbook Neo");
+        String productName = new String();
+        productName = "Macbook Air M5";
         IO.println(productName);
 
     }
